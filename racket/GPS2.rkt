@@ -1,5 +1,7 @@
 #lang racket
 
+(provide GPS make-op)
+
 ;; Operation structure
 (struct op (action preconds add-list del-list) #:mutable)
 
